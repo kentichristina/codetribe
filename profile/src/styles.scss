@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+table{
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center; 
+    width: 50px;
+
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,th,td{
+    border: 1px solid #000;
+    width: fit-content;
+    height: 50px;
+    text-align: left;
+ 
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  th{
+      text-align: center;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+  }
+  body{
+    text-align: center;
+  }
+
+ 
+
