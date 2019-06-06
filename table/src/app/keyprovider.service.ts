@@ -10,7 +10,7 @@ export class KeyproviderService {
   constructor(private http:HttpClient) { }
   
 getNew(){
-  return this.http.get("http://jsonplaceholder.typicode.com/users")
+  return this.http.get('http://jsonplaceholder.typicode.com/users')
 }
 
 }

@@ -3,16 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { HttpClientModule }    from '@angular/common/http';
+import { MenuComponent } from './menu/menu.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
+import { LoginComponent } from './login/login.component';
+import { FormComponent } from './form/form.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    MenuComponent,
+    ContactComponent,
+    AboutComponent,
+    LoginComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
