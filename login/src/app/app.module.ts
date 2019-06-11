@@ -9,7 +9,9 @@ import { MenuComponent } from './menu/menu.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
-
+import { DetailComponent } from './detail/detail.component';
+import{ReactiveFormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +20,12 @@ import { LoginComponent } from './login/login.component';
     MenuComponent,
     ContactComponent,
     AboutComponent,
-    LoginComponent
+    LoginComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,ReactiveFormsModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

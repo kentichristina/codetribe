@@ -10,6 +10,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 })
 export class ProfileEditorComponent implements OnInit {
   name = new FormControl('')
+  profileForm: any;
 
   constructor() { }
 

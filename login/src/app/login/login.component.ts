@@ -8,12 +8,20 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-
+name="";
+password="";
 
   constructor(private router: Router) { }
   onLogin(){
-    this.router.navigateByUrl("menu")
+  
+    console.log(this.name);
+    console.log(this.password);
+    
+    this.router.navigate(['/detail'], { queryParams: { name:this.name,password:this.password } });
+    
+    
   }
+
   ngOnInit() {
   }
 
