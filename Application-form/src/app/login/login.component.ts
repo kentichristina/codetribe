@@ -12,6 +12,7 @@ name=""
 password=""
 Email=""
 ID_Number=""
+Phone_number=""
   constructor(private route:Router) { }
 
   ngOnInit() {
@@ -21,7 +22,8 @@ onLogin(){
   console.log(this.password)
   console.log(this.Email)
   console.log(this.ID_Number)
+  // console.log(this.Phone_Number)
 
-  this.route.navigate(['/data'], { queryParams: { name:this.name, password:this.password,Email:this.Email,ID_Number:this.ID_Number,Phone_Number:this.Phone_Number } });
+  this.route.navigate(['/data'], { queryParams: { name:this.name, password:this.password,Email:this.Email,ID_Number:this.ID_Number } });
 }
 }

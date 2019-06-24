@@ -1,0 +1,50 @@
+table,tr,td,th{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    color:white;
+
+}
+p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:lightblue;
+    width: 32%;
+}
+
+button{
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: darkgreen;
+    width: 32%;
+    margin-left: 35%;
+    margin-top: 16px;
+    box-shadow: 0px 2px 2px 0px white;
+}
+tr{text-align: left;}
+td{
+    height: 50px;
+    vertical-align: bottom;
+}
+
+table{
+    
+        font-family:Roboto,sans-serif;
+          background-image:url(https://image.freepik.com/free-vector/dark-blue-blurred-background_1034-589.jpg) ;
+        
+         border-style: 1px solid grey;
+         margin: 0 auto;
+         text-align: center;
+         opacity: 0.8;
+         margin-top: 67px;
+       //box-shadow: 2px 5px 5px 0px #eee;
+         max-width: 500px;
+         padding-top: 10px;
+         height: px;
+         margin-top: 166px;
+    
+}
+
