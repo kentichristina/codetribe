@@ -1,0 +1,28 @@
+.travelhater,
+.travelhater-car  {
+	background: url(/Media/Default/marketing/campaign/travel-hater/travel-hater-logo.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 30%;
+	height: 160px;
+}
+
+.travelhater {
+	left: 0;
+	margin: -50px 0 0 10px;
+}
+
+.travelhater-car {
+	left: 50px;
+}
+
+@media (max-width: 430px) {
+	.travelhater {
+			width: 140px;
+			height: 120px;
+			margin: 132px 0px 0 12px;
+			background-size: contain;
+	}
+}@charset "utf-8";
+/* CSS Document */
+

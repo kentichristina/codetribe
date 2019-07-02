@@ -1,0 +1,117 @@
+.FeaturedInfo {
+	margin-bottom: 0px;
+}
+
+.loyalty.col-sm-4 .KululaCreditCard a {
+	padding: 80px 0 0px 0;
+}
+
+.flights-fares .FaresSelector.selector fieldset, 
+.flights-fares .FaresSelector.selector .action { width: 100%; padding-top: 0;}
+.loyalty.col-sm-4 .half {width: 100%; padding: 15px; margin: 0px 0 10px;}
+.loyalty .fanmail a.content-btn-small { display: block; margin-top: 10px; }
+.SmlBanners .clm.forth { width:25%; }
+
+@media (max-width: 992px) {
+	.SmlBanners .clm.forth,
+	.flights-fares.col-sm-4.third,
+	.go-on-holiday.col-sm-4.third,
+	.loyalty.col-sm-4 .half {width: 50%;}
+	.loyalty.col-sm-4 {width: 100%; clear: both;}
+	.row.SmlBanners {padding: 0 15px;}
+}
+
+@media (max-width: 600px) {
+	.flights-fares.col-sm-4.third,
+	.go-on-holiday.col-sm-4.third,
+	.loyalty.col-sm-4 .half {width: 100%; padding: 15px;}
+}
+
+@media (max-width:480px) {
+    .SmlBanners .clm.forth{ width:100%; height: auto;}
+}
+
+/*#################### NEW STYLES FOR SUBSCRIPTION #################*/
+
+.widget-homepage-subscription.widget-featured.widget-email-subscription-widget.widget {
+	margin: 0 auto;
+}
+
+#sidebar-content-block {
+	width: 100%;
+	float: right;
+	padding: 15px;
+}
+
+@media (min-width: 601px) {
+	#sidebar-content-block { width: 50%; margin-top: -220px; }
+	.widget-homepage-subscription.widget-featured.widget-email-subscription-widget.widget a.content-btn-small {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+	.widget-homepage-subscription.widget-featured.widget-email-subscription-widget.widget {width: 750px;}
+	.widget-homepage-subscription.widget-featured.widget-email-subscription-widget.widget a.content-btn-small {
+		display: block;
+	} 
+}
+
+@media (width: 992px) {
+	#sidebar-content-block { width: 50% !important; margin-top: -220px !important; }
+}
+
+@media (min-width: 992px)  {
+	.widget-homepage-subscription.widget-featured.widget-email-subscription-widget.widget {width: 970px;}
+	#sidebar-content-block {width: 33.33%; margin-top: -240px;}
+	.widget-homepage-subscription.widget-email-subscription-widget .fanmail-btns .fanmail-subscrbtn, 
+}
+
+@media (max-width: 1024px) and (min-width: 601px)  {
+	.widget-homepage-subscription.widget-email-subscription-widget .fanmail-btns .fanmail-subscrbtn,
+	.widget-homepage-subscription.widget-email-subscription-widget .fanmail-btns .fanmail-managelink {width: 100%; display:block; margin-top: 10px;}
+	.widget-homepage-subscription.widget-email-subscription-widget .fanmail-btns .fanmail-managelink { margin-left: 0px;}
+}
+
+@media (min-width: 1200px)  { 
+	.widget-homepage-subscription.widget-featured.widget-email-subscription-widget.widget {width: 1170px;} 
+	.widget-homepage-subscription.widget-featured.widget-email-subscription-widget.widget a.content-btn-small {
+		display: block;
+	}
+}
+
+
+/*Vitality Grey style - homepage*/
+.grey .tagline button.btn.btn-default.btn-sm {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 8px 0;
+}
+
+.grey #sidebar-content-block.fanmail {
+	width: auto;
+	margin-right: 50px;
+}
+
+/*override*/
+.grey .aside-banner {
+	padding-bottom: 40px;
+	margin-bottom: 0px;
+}
+
+.grey .KululaCreditCard a {
+	padding: 100px 0 0px 0;
+}
+
+@media (min-width: 992px) {
+	.grey #sidebar-content-block {
+		width: 33.33%;
+		margin-top: -180px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.grey .widget-homepage-subscription.widget-featured.widget-email-subscription-widget.widget {
+		width: auto;
+	}
+}

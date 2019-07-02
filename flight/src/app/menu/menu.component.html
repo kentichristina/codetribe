@@ -1,0 +1,11 @@
+
+
+<div class="topnav">
+  <a  (click)="onNavigate(item)"*ngFor="let item of list"class="active">{{item.name}}</a>
+</div>
+
+
+
+
+<router-outlet></router-outlet>
+
